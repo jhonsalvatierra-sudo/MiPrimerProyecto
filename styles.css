@@ -37,6 +37,34 @@ section {
 }
 
 
+form {
+    margin-top: 10px;
+}
+ 
+.campo {
+    margin-bottom: 10px;
+}
+ 
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+ 
+input, textarea {
+    width: 80%;
+    padding: 10px;
+}
+ 
+button {
+    background-color: #f587657a;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
 
 footer {
     background-color: #763626;
@@ -44,3 +72,6 @@ footer {
     text-align: center;
     padding: 10px;
 }
+
+
+
