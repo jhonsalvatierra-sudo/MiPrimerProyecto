@@ -15,8 +15,10 @@ header {
 
 nav {
     background-color: #2a3132;
-    text-align: center;
-    padding: 10px;
+  padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 nav a {
@@ -74,4 +76,18 @@ footer {
 }
 
 
-
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        
+    }
+ 
+    section {
+        margin: 10px 0;
+        padding: 12px;
+    }
+ 
+    main {
+        padding: 12px;
+    }
+}
